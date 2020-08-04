@@ -1,0 +1,81 @@
+! uMatrix: Ruleset recipes 1.0
+! Title: Steven Karas's Personal rulesets
+! Maintainer: Steven Karas
+!
+! Lines starting with character "!" are ignored.
+! Character "_" is an alias for "currently selected scope".
+! An empty line MUST be used to separate distinct ruleset recipes.
+!
+! Please contribute ruleset recipes for the benefit of all other users:
+! https://code.karas.io/stevenkaras/ublock-assets/
+
+Shopify Whitelabel
+    * shopify.com
+        _ cdn.shopify.com script
+        _ shopify.com script
+
+CreditGuard as 3rd Party
+    * creditguard.co.il
+        _ cgmpi.creditguard.co.il * allow
+        _ cgmpi.creditguard.co.il cookie allow
+        _ cgmpi.creditguard.co.il frame allow
+        _ cgmpi.creditguard.co.il script allow
+
+CreditGuard Payments
+    creditguard.co.il *
+        _ ajax.googleapis.com script
+        _ d3m9l0v76dty0.cloudfront.net script
+        _ maps.googleapis.com script
+        _ maps.gstatic.com script
+        _ s3-eu-west-1.amazonaws.com script
+        _ www.google.com *
+        _ www.google.com frame
+
+Paddle as 3rd Party
+    * paddle.com
+        _ buy.paddle.com cookie
+        _ buy.paddle.com frame
+        _ buy.paddle.com script
+        _ cdn.paddle.com script
+        _ checkout-service.paddle.com xhr
+        _ checkout.paddle.com frame
+        _ create-checkout.paddle.com frame
+
+Tranzila as 3rd Party
+    * tranzila.com
+        _ direct.tranzila.com frame
+        _ tranzila.com *
+        _ paypal.com cookie
+        _ www.paypal.com cookie
+
+Mast
+    mast.co.il *
+        _ ajax.googleapis.com script
+        _ cdn.glassix.com script
+        _ cdnjs.cloudflare.com script
+        _ code.angularjs.org script
+        _ code.jquery.com script
+        _ google.com cookie
+        _ www.google.com *
+        _ www.google.com frame
+        _ www.google.com script
+        _ www.gstatic.com *
+        _ www.pay24.co.il cookie
+        _ www.pay24.co.il frame
+        _ www.pay24.co.il script
+
+iCredit as 3rd Party
+    * icredit.rivhit.co.il
+        _ icredit.rivhit.co.il cookie
+        _ icredit.rivhit.co.il script
+
+Safecharge as 3rd Party
+    * secure.safecharge.com
+        _ secure.safecharge.com cookie
+        _ secure.safecharge.com frame
+        _ secure.safecharge.com script
+        _ secure.safecharge.com xhr
+
+! TODO: captchas
+! TODO: Aliexpress
+! TODO: Amazon
