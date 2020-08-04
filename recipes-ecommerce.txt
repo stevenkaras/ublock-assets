@@ -7,7 +7,7 @@
 ! An empty line MUST be used to separate distinct ruleset recipes.
 !
 ! Please contribute ruleset recipes for the benefit of all other users:
-! https://code.karas.io/stevenkaras/ublock-assets/
+! https://github.com/stevenkaras/ublock-assets/
 
 Shopify Whitelabel
     * shopify.com
