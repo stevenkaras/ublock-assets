@@ -9,10 +9,12 @@
 ! Please contribute ruleset recipes for the benefit of all other users:
 ! https://github.com/stevenkaras/ublock-assets/
 
-Shopify Whitelabel
+Shopify as 3rd Party
     * shopify.com
         _ cdn.shopify.com script
         _ shopify.com script
+        _ monorail-edge.shopifysvc.com xhr
+        _ pay.shopify.com xhr
 
 CreditGuard as 3rd Party
     * creditguard.co.il
